@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="script.js"></script>
+    
+    <title>Web Dersi 30Mart2023</title>
+</head>
+<body>
+    <p id="p1">Merhaba Arkadaşlar</p>
+
+
+
+    <div class="container">
+        <button onclick="Tikla()" >Tıkla buraya</button>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <button onclick="Tikla2(this)">Tıkla buraya</button>
+    </div>
+
+    <br>
+ 
+    <div class="container">
+        <button onclick="RenkDegistir()">Renk Değiştir</button>
+    </div>    
+
+    <br>
+
+    <div class="container">
+        <button onmouseover="FareUzerinde()" 
+                onmouseout="FareUzerindeDegil()">Fare Butonu</button>
+    </div>   
+
+    <br>
+
+    <div class="input">
+        <input type="text" id="input1" >
+        
+    </div>
+    <div class="container">
+        <button onclick="inputAl()">Input'tan Veri Al</button>
+    </div> 
+<!-- #region-->
+ 
+    <script>
+        function Tikla() {
+            alert("Butona tıklandı.");
+        }
+
+        function Tikla2(element) {
+            element.innerText = "Butona tıklandı.";
+        }        
+
+        function RenkDegistir() {
+            var element = document.getElementById("p1");
+
+            element.style.color = "red";
+        }               
+
+        function FareUzerinde() {
+            var element = document.getElementById("p1");
+
+            element.style.color = "red";
+            element.innerText = "Fare uzerinde.";
+
+        }                       
+
+        function FareUzerindeDegil() {
+            var element = document.getElementById("p1");
+
+            element.style.color = "green";
+            element.innerText = "Fare uzerinde degil.";
+
+        }        
+
+        function inputAl() {
+            var element = document.getElementById("input1");
+
+            alert(element.value);
+        }
+
+    </script>
+
+
+
+</body>
+</html>
