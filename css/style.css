@@ -1,0 +1,158 @@
+/* This is a header part for 3 buttons */
+.header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #848482;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .header a {
+        color: #fff;
+        text-decoration: none;
+        padding-right: 50px;
+        right: 0px;
+    }
+
+
+
+/* This is a special welcome text at the beginning  */
+.welcome {
+    font-family: "Lucida Handwriting";
+    font-size: 2em;
+}
+
+
+
+
+/* This is a body part that defines all font type and size */
+body {
+    background-color: #ECC5C0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    padding-top: 8em;
+    margin: 4em;
+    color: #3B3131;
+}
+
+
+
+
+
+/* This is a header one part used for displaying name*/
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: -.1em 0 1em;
+}
+/* This is circle position for image */
+.circle {
+    position: relative;
+    margin: 0 auto 50px;
+    height: 144px;
+    width: 144px;
+    border-radius: 50%;
+    background: #999 url(images\bg1.jpeg) 80% 0%;
+    background-size: 160px 160px;
+    box-shadow: 0 0 0 12.8px rgba(255,255,255,0.3);
+}
+    /* This is a position part of text aroung image */
+    .circle:before, .circle:after {
+        position: absolute;
+        content: 'Computer';
+        width: 6em;
+        font-size: 1.7em;
+        top: 2em;
+        right: 5.5em;
+    }
+
+    .circle:after {
+        content: 'Engineer';
+        left: 7em;
+    }
+
+
+
+
+
+/* This is a part that displaying a welcome text at the center */
+p:first-of-type {
+    max-width: 9999em;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+/* This is paragraph design in the body part, that also display a line under paragraph  */
+p:not(:first-of-type):after {
+    content: '';
+    display: block;
+    max-width: 49em;
+    width: 80%;
+    height: 1px;
+    background: rgba(0,0,0,0.3);
+    border-bottom: solid 1px rgba(255,255,255,0.3);
+    margin: 2.5em auto 10px;
+}
+
+
+/* This is header three that is header for about me or portfolio part */
+h3 {
+    background: transparent;
+    line-height: 1.5;
+    margin: 1.4em auto;
+    max-width: 49em;
+    font-size: 1.3em;
+}
+/* Paragraph design */
+p {
+    background: transparent;
+    line-height: 1.5;
+    margin: 1.4em auto;
+    max-width: 49em;
+    font-size: 1.3em;
+}
+/* Spacing fisrt head line from photo */
+.first {
+    padding-top: 100px;
+}
+
+
+/* This is header two for that display text around photo */
+h2 {
+    display: none;
+    font-weight: 400;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+span {
+    display: none;
+    font-size: 1em;
+    margin: -1.25em auto;
+    text-align: center;
+}
+
+
+/* This is icons part that contains icon of the other applications */
+.social-icons {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    background-color: #848482;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .social-icons img {
+        width: 50px;
+        margin: 10px;
+    }

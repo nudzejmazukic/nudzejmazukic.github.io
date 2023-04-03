@@ -1,93 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <script src="script.js"></script>
-    
-    <title>Web Dersi 30Mart2023</title>
-</head>
-<body>
-    <p id="p1">Deneme</p>
-
-
-
-    <div class="container">
-        <button onclick="Tikla()" >Tıkla buraya</button>
+<div class="header">
+    <div>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
     </div>
+</div>
 
-    <br>
 
-    <div class="container">
-        <button onclick="Tikla2(this)">Tıkla buraya</button>
-    </div>
+<p class="welcome">Welcome, I'am</p>
+<h1>Nudzejma Zukic</h1>
 
-    <br>
- 
-    <div class="container">
-        <button onclick="RenkDegistir()">Renk Değiştir</button>
-    </div>    
+<div class="circle"></div>
 
-    <br>
+<h2>Computer</h2>
+<span>&amp</span>
+<h2>Engineer</h2>
 
-    <div class="container">
-        <button onmouseover="FareUzerinde()" 
-                onmouseout="FareUzerindeDegil()">Fare Butonu</button>
-    </div>   
 
-    <br>
-
-    <div class="input">
-        <input type="text" id="input1" >
-        
-    </div>
-    <div class="container">
-        <button onclick="inputAl()">Input'tan Veri Al</button>
-    </div> 
-<!-- #region-->
- 
-    <script>
-        function Tikla() {
-            alert("Butona tıklandı.");
-        }
-
-        function Tikla2(element) {
-            element.innerText = "Butona tıklandı.";
-        }        
-
-        function RenkDegistir() {
-            var element = document.getElementById("p1");
-
-            element.style.color = "red";
-        }               
-
-        function FareUzerinde() {
-            var element = document.getElementById("p1");
-
-            element.style.color = "red";
-            element.innerText = "Fare uzerinde.";
-
-        }                       
-
-        function FareUzerindeDegil() {
-            var element = document.getElementById("p1");
-
-            element.style.color = "green";
-            element.innerText = "Fare uzerinde degil.";
-
-        }        
-
-        function inputAl() {
-            var element = document.getElementById("input1");
-
-            alert(element.value);
-        }
-
-    </script>
+<h3 class="first">About me</h3>
+<p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+<h3>Portfolio</h3>
+<p>
+    Where can I get some?
+    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.
+</p>
 
 
 
-</body>
-</html>
+
+
+<div class="social-icons">
+    <a href="https://www.instagram.com"><img src="instagram-icon.png" alt="Instagram"></a>
+    <a href="https://www.linkedin.com"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+    <a href="https://www.github.com"><img src="github-icon.png" alt="GitHub"></a>
+</div>
