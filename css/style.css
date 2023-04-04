@@ -153,18 +153,13 @@ span {
 }
 
     .social-icons img {
-        padding:100px;
+      
         margin: 0px 50 px;
         width: 50px;
         margin: 30px;
     }
- .social-icons img {
-     
-        margin: 0px 50 px;
-        width: 50px;
-        margin: 30px;
-    }
+
 .social-icons a{
     padding-right:20px;
-   padding-top:20px;
+    padding-top:20px;
 }
