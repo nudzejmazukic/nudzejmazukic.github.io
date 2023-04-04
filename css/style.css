@@ -32,7 +32,7 @@
 
 /* This is a body part that defines all font type and size */
 body {
-    background-color: #ECC5C0;
+    background-image: url("images/bg1.jpeg");
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     padding-top: 8em;
@@ -57,7 +57,7 @@ h1 {
     height: 144px;
     width: 144px;
     border-radius: 50%;
-    background: #999 url(..\images\bg1.jpeg) 80% 0%;
+    background: #999 url(images\photo.png) 80% 0%;
     background-size: 160px 160px;
     box-shadow: 0 0 0 12.8px rgba(255,255,255,0.3);
 }
