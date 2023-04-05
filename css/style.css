@@ -32,7 +32,10 @@
 
 /* This is a body part that defines all font type and size */
 body {
-    background: url("images/bg3.png");
+    background-image: url('img_girl.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     padding-top: 8em;
