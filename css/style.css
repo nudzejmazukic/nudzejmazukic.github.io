@@ -3,42 +3,30 @@
 }
 
 .header {
-    min-height: 55px;
+    min-height: 55px; 
+    max-height: 65px;
     background-color: #6b705c;
     font-size: 1.3em;
     font-weight: 800;
     color: #326e6e;
 }
 
-.between-menu {
-    min-height: inherit;
-    background-color: #7c99bb;
-}
 
-#two-rowed-logo {
-    margin: 0px;
-    color: black;
-}
 
 .menu p {
+    width: 100px;
+  height: 55px;
     color: black;
     padding: 14px 0px 16px 0px;
     margin: 0px;
 }
 
-.logo p {
-    color: black;
-    padding: 0px 0px 4px 0px;
-    margin: 0px;
-}
+
 
 .active {
     background-color: #326e6e;
 }
 
-.nonactive {
-    background-color: #7c99bb;
-}
 
 
 
