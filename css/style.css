@@ -1,5 +1,6 @@
 * {
     font-family: Dosis, sans-serif;
+    text-decoration: initial;
 }
 
 .header {
@@ -12,17 +13,13 @@
 }
 
 
-
 .menu p {
     width: 100px;
-  height: 55px;
+    height: 55px;
     color: black;
     padding: 14px 0px 16px 0px;
     margin: 0px;
 }
-
-
-
 .active {
     background-color: #326e6e;
 }
